@@ -1,0 +1,58 @@
+name: Run Nasdaq Earnings Scraper
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # Runs daily at 4:00 AM UTC
+  workflow_dispatch:
+
+jobs:
+  run-earnings-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: true
+
+      - name: Ensure data_upload/nasdaq_earnings_upload directory exists
+        run: mkdir -p data_upload/nasdaq_earnings_upload
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Clean environment and upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+          pip uninstall -y numpy pandas requests || true
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade numpy pandas requests
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Execute Nasdaq earnings scraper script
+        run: python scrape_logic/nasdaq_earnings_calendar.py
+
+      - name: Check if there are changes to commit
+        id: git-check
+        run: |
+          git add -N data_upload/nasdaq_earnings_upload/*.csv
+          if git diff --quiet --exit-code; then
+            echo "No changes detected. Skipping commit."
+            echo "::set-output name=push::false"
+          else
+            echo "Changes detected. Preparing to commit."
+            echo "::set-output name=push::true"
+          fi
+
+      - name: Commit and push changes if needed
+        if: steps.git-check.outputs.push == 'true'
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add -f data_upload/nasdaq_earnings_upload/*.csv
+          git commit -m "Update Nasdaq earnings CSV file [skip ci]"
+          git push

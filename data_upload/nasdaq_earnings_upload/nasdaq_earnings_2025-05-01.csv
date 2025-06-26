@@ -1,0 +1,338 @@
+Company Name,Symbol,Market Cap,EPS Forecast,Time,Fiscal Quarter Ending,No. of ESTs,Last Year's EPS,Scraped At
+Apple Inc.,AAPL,"$3,172,812,038,330",$1.61,time-after-hours,Mar/2025,11,$1.53,2025-05-01 05:20:52
+"Amazon.com, Inc.",AMZN,"$1,985,908,503,271",$1.35,time-after-hours,Mar/2025,15,$1.13,2025-05-01 05:20:52
+Eli Lilly and Company,LLY,"$839,320,083,115",$3.52,time-pre-market,Mar/2025,9,$2.58,2025-05-01 05:20:52
+Mastercard Incorporated,MA,"$492,030,846,518",$3.57,time-pre-market,Mar/2025,14,$3.31,2025-05-01 05:20:52
+McDonald's Corporation,MCD,"$224,698,028,216",$2.64,time-pre-market,Mar/2025,13,$2.70,2025-05-01 05:20:52
+Linde plc,LIN,"$213,084,516,838",$3.93,time-pre-market,Mar/2025,7,$3.75,2025-05-01 05:20:52
+Amgen Inc.,AMGN,"$155,015,858,352",$4.16,time-after-hours,Mar/2025,13,$3.96,2025-05-01 05:20:52
+Stryker Corporation,SYK,"$141,535,328,303",$2.73,time-after-hours,Mar/2025,12,$2.50,2025-05-01 05:20:52
+"MercadoLibre, Inc.",MELI,"$115,633,614,743",$7.67,time-not-supplied,Mar/2025,3,$6.78,2025-05-01 05:20:52
+KKR & Co. Inc.,KKR,"$101,571,448,449",$0.99,time-pre-market,Mar/2025,4,$0.78,2025-05-01 05:20:52
+Southern Company (The),SO,"$100,302,560,916",$1.20,time-pre-market,Mar/2025,5,$1.03,2025-05-01 05:20:52
+MicroStrategy Incorporated,MSTR,"$98,166,865,853",,time-after-hours,Mar/2025,4,($0.83),2025-05-01 05:20:52
+Intercontinental Exchange Inc.,ICE,"$95,567,372,831",$1.69,time-pre-market,Mar/2025,10,$1.48,2025-05-01 05:20:52
+Thomson Reuters Corp,TRI,"$82,919,616,479",$1.06,time-pre-market,Mar/2025,4,$1.11,2025-05-01 05:20:52
+CVS Health Corporation,CVS,"$81,989,502,947",$1.67,time-pre-market,Mar/2025,11,$1.31,2025-05-01 05:20:52
+Arthur J. Gallagher & Co.,AJG,"$80,775,558,000",$3.57,time-after-hours,Mar/2025,6,$3.49,2025-05-01 05:20:52
+"Airbnb, Inc.",ABNB,"$79,126,414,279",$0.25,time-after-hours,Mar/2025,12,$0.41,2025-05-01 05:20:52
+Parker-Hannifin Corporation,PH,"$77,611,721,470",$6.73,time-pre-market,Mar/2025,8,$6.51,2025-05-01 05:20:52
+"Motorola Solutions, Inc.",MSI,"$72,744,446,204",$2.72,time-after-hours,Mar/2025,6,$2.56,2025-05-01 05:20:52
+Equinor ASA,EQNR,"$67,964,440,964",$0.83,time-not-supplied,Mar/2025,2,$0.96,2025-05-01 05:20:52
+Canadian Natural Resources Limited,CNQ,"$62,589,638,560",$0.73,time-not-supplied,Mar/2025,3,$0.51,2025-05-01 05:20:52
+"EOG Resources, Inc.",EOG,"$62,554,900,447",$2.74,time-after-hours,Mar/2025,11,$2.82,2025-05-01 05:20:52
+"ING Group, N.V.",ING,"$61,751,814,814",$0.56,time-not-supplied,Mar/2025,2,$0.52,2025-05-01 05:20:52
+Canadian National Railway Company,CNI,"$60,490,539,000",$1.26,time-after-hours,Mar/2025,10,$1.28,2025-05-01 05:20:52
+"Air Products and Chemicals, Inc.",APD,"$60,275,332,189",$2.84,time-pre-market,Mar/2025,6,$2.85,2025-05-01 05:20:52
+"Becton, Dickinson and Company",BDX,"$59,276,236,311",$3.28,time-pre-market,Mar/2025,10,$3.17,2025-05-01 05:20:52
+Monster Beverage Corporation,MNST,"$57,659,664,588",$0.46,time-not-supplied,Mar/2025,9,$0.42,2025-05-01 05:20:52
+Barclays PLC,BCS,"$56,807,928,173",$0.61,time-not-supplied,Mar/2025,2,$0.52,2025-05-01 05:20:52
+Howmet Aerospace Inc.,HWM,"$55,690,596,363",$0.77,time-pre-market,Mar/2025,6,$0.57,2025-05-01 05:20:52
+Carrier Global Corporation,CARR,"$52,812,432,840",$0.58,time-pre-market,Mar/2025,6,$0.62,2025-05-01 05:20:52
+TC Energy Corporation,TRP,"$52,194,666,169",$0.73,time-pre-market,Mar/2025,8,$0.92,2025-05-01 05:20:52
+"W.W. Grainger, Inc.",GWW,"$48,829,542,359",$9.46,time-pre-market,Mar/2025,7,$9.62,2025-05-01 05:20:52
+"American International Group, Inc.",AIG,"$48,653,303,048",$1.05,time-after-hours,Mar/2025,7,$1.77,2025-05-01 05:20:52
+Exelon Corporation,EXC,"$47,094,423,805",$0.85,time-pre-market,Mar/2025,5,$0.69,2025-05-01 05:20:52
+"Dominion Energy, Inc.",D,"$46,274,860,374",$0.77,time-pre-market,Mar/2025,3,$0.55,2025-05-01 05:20:52
+Roblox Corporation,RBLX,"$44,308,719,004",($0.41),time-pre-market,Mar/2025,8,($0.43),2025-05-01 05:20:52
+"Quanta Services, Inc.",PWR,"$43,330,225,094",$1.47,time-pre-market,Mar/2025,9,$1.23,2025-05-01 05:20:52
+Consolidated Edison Inc,ED,"$38,876,776,081",$2.30,time-after-hours,Mar/2025,5,$2.15,2025-05-01 05:20:52
+"Targa Resources, Inc.",TRGP,"$38,846,995,914",$2.04,time-pre-market,Mar/2025,6,$1.22,2025-05-01 05:20:52
+"AMTEK, Inc.",AME,"$38,704,644,300",$1.69,time-pre-market,Mar/2025,8,$1.64,2025-05-01 05:20:52
+Atlassian Corporation ,TEAM,"$37,470,590,802",($0.06),time-after-hours,Mar/2025,9,$0.10,2025-05-01 05:20:52
+"Block, Inc.",XYZ,"$36,896,228,800",$0.48,time-after-hours,Mar/2025,8,$0.47,2025-05-01 05:20:52
+"IDEXX Laboratories, Inc.",IDXX,"$35,537,997,974",$2.92,time-pre-market,Mar/2025,7,$2.81,2025-05-01 05:20:52
+"Cardinal Health, Inc.",CAH,"$33,780,868,141",$2.15,time-pre-market,Mar/2025,8,$2.08,2025-05-01 05:20:52
+Hershey Company (The),HSY,"$33,411,923,519",$1.93,time-pre-market,Mar/2025,10,$3.07,2025-05-01 05:20:52
+"Alnylam Pharmaceuticals, Inc.",ALNY,"$33,295,085,952",$1,time-pre-market,Mar/2025,12,($0.52),2025-05-01 05:20:52
+"Live Nation Entertainment, Inc.",LYV,"$30,878,972,939",($0.32),time-after-hours,Mar/2025,9,($0.53),2025-05-01 05:20:52
+Ingersoll Rand Inc.,IR,"$30,174,811,945",$0.70,time-after-hours,Mar/2025,4,$0.76,2025-05-01 05:20:52
+Blue Owl Capital Inc. ,OWL,"$28,603,714,744",$0.19,time-pre-market,Mar/2025,6,$0.17,2025-05-01 05:20:52
+Kellanova,K,"$28,507,930,921",$0.98,time-pre-market,Mar/2025,6,$1.01,2025-05-01 05:20:52
+DTE Energy Company,DTE,"$28,342,469,256",$1.98,time-pre-market,Mar/2025,4,$1.67,2025-05-01 05:20:52
+"Monolithic Power Systems, Inc.",MPWR,"$28,084,896,840",$3.02,time-after-hours,Mar/2025,6,$1.97,2025-05-01 05:20:52
+"Broadridge Financial Solutions, Inc.",BR,"$28,047,038,900",$2.39,time-pre-market,Mar/2025,4,$2.23,2025-05-01 05:20:52
+"DexCom, Inc.",DXCM,"$27,862,044,883",$0.33,time-after-hours,Mar/2025,11,$0.32,2025-05-01 05:20:52
+Ameren Corporation,AEE,"$26,777,399,261",$1.08,time-after-hours,Mar/2025,4,$0.98,2025-05-01 05:20:52
+GoDaddy Inc.,GDDY,"$26,639,934,045",$1.35,time-after-hours,Mar/2025,8,$1.08,2025-05-01 05:20:52
+Iron Mountain Incorporated,IRM,"$25,928,509,684",$1.05,time-pre-market,Mar/2025,5,$0.43,2025-05-01 05:20:52
+Banco Bradesco Sa,BBD,"$25,860,473,654",$0.09,time-not-supplied,Mar/2025,3,$0.08,2025-05-01 05:20:52
+Banco Bradesco Sa,BBDO,"$25,860,473,654",,time-not-supplied,Mar/2025,4,$0.08,2025-05-01 05:20:52
+"Church & Dwight Company, Inc.",CHD,"$24,353,477,918",$0.89,time-pre-market,Mar/2025,11,$0.96,2025-05-01 05:20:52
+Fortive Corporation,FTV,"$23,510,645,151",$0.85,time-pre-market,Mar/2025,7,$0.83,2025-05-01 05:20:52
+"Mettler-Toledo International, Inc.",MTD,"$22,280,839,621",$7.90,time-after-hours,Mar/2025,5,$8.89,2025-05-01 05:20:52
+Smurfit WestRock plc,SW,"$22,105,816,791",$0.65,time-pre-market,Mar/2025,4,$0.39,2025-05-01 05:20:52
+"Reddit, Inc.",RDDT,"$22,095,657,187",$0.02,time-after-hours,Mar/2025,12,($8.19),2025-05-01 05:20:52
+Eversource Energy,ES,"$21,794,366,483",$1.50,time-after-hours,Mar/2025,5,$1.49,2025-05-01 05:20:52
+"Estee Lauder Companies, Inc. (The)",EL,"$21,435,443,368",$0.29,time-pre-market,Mar/2025,12,$0.97,2025-05-01 05:20:52
+Cameco Corporation,CCJ,"$19,765,901,580",$0.18,time-pre-market,Mar/2025,5,$0.10,2025-05-01 05:20:52
+Hubbell Inc,HUBB,"$19,291,918,773",$3.73,time-pre-market,Mar/2025,5,$3.60,2025-05-01 05:20:52
+Biogen Inc.,BIIB,"$17,589,876,179",$3.32,time-pre-market,Mar/2025,24,$3.67,2025-05-01 05:20:52
+"Duolingo, Inc.",DUOL,"$17,424,360,334",$0.52,time-after-hours,Mar/2025,8,$0.57,2025-05-01 05:20:52
+Summit Therapeutics Inc. ,SMMT,"$17,423,994,608",($0.10),time-after-hours,Mar/2025,3,($0.05),2025-05-01 05:20:52
+"Ryan Specialty Holdings, Inc.",RYAN,"$16,843,168,493",$0.39,time-after-hours,Mar/2025,5,$0.35,2025-05-01 05:20:52
+Baxter International Inc.,BAX,"$15,850,142,376",$0.48,time-pre-market,Mar/2025,6,$0.65,2025-05-01 05:20:52
+"PT Telekomunikasi Indonesia, Tbk",TLK,"$15,394,268,460",,time-not-supplied,Mar/2025,N/A,$0.37,2025-05-01 05:20:52
+Twilio Inc.,TWLO,"$14,726,090,210",$0.24,time-after-hours,Mar/2025,4,$0.06,2025-05-01 05:20:52
+CNH Industrial N.V.,CNH,"$14,489,556,214",$0.09,time-pre-market,Mar/2025,8,$0.33,2025-05-01 05:20:52
+"Builders FirstSource, Inc.",BLDR,"$13,661,833,890",$1.50,time-pre-market,Mar/2025,6,$2.65,2025-05-01 05:20:52
+Kimco Realty Corporation,KIM,"$13,643,999,243",$0.42,time-pre-market,Mar/2025,10,$0.39,2025-05-01 05:20:52
+American Homes 4 Rent,AMH,"$13,565,436,608",$0.45,time-after-hours,Mar/2025,7,$0.43,2025-05-01 05:20:52
+Aptiv PLC,APTV,"$13,227,583,115",$1.55,time-pre-market,Mar/2025,8,$1.16,2025-05-01 05:20:52
+"Hologic, Inc.",HOLX,"$13,095,377,756",$1.01,time-after-hours,Mar/2025,8,$1.03,2025-05-01 05:20:52
+IDEX Corporation,IEX,"$13,050,012,893",$1.64,time-pre-market,Mar/2025,5,$1.88,2025-05-01 05:20:52
+"Reinsurance Group of America, Incorporated",RGA,"$12,667,449,826",$5.33,time-after-hours,Mar/2025,6,$6.02,2025-05-01 05:20:52
+BioMarin Pharmaceutical Inc.,BMRN,"$12,072,371,851",$0.73,time-after-hours,Mar/2025,10,$0.49,2025-05-01 05:20:52
+Camden Property Trust,CPT,"$12,063,564,956",$1.68,time-after-hours,Mar/2025,9,$1.67,2025-05-01 05:20:52
+"Juniper Networks, Inc.",JNPR,"$12,011,490,956",$0.22,time-after-hours,Mar/2025,4,$0.09,2025-05-01 05:20:52
+Pinnacle West Capital Corporation,PNW,"$11,348,949,809",$0.05,time-pre-market,Mar/2025,3,$0.15,2025-05-01 05:20:52
+DaVita Inc.,DVA,"$11,323,200,000",$1.75,time-not-supplied,Mar/2025,2,$2.38,2025-05-01 05:20:52
+ITT Inc.,ITT,"$11,142,846,000",$1.44,time-pre-market,Mar/2025,6,$1.42,2025-05-01 05:20:52
+Hyatt Hotels Corporation,H,"$10,899,469,741",$0.30,time-pre-market,Mar/2025,8,$0.71,2025-05-01 05:20:52
+"Omega Healthcare Investors, Inc.",OHI,"$10,774,628,510",$0.72,time-after-hours,Mar/2025,4,$0.68,2025-05-01 05:20:52
+Paylocity Holding Corporation,PCTY,"$10,748,786,522",$1.50,time-after-hours,Mar/2025,7,$1.57,2025-05-01 05:20:52
+"Moderna, Inc.",MRNA,"$10,733,397,698",($2.92),time-pre-market,Mar/2025,10,($3.07),2025-05-01 05:20:52
+Maplebear Inc.,CART,"$10,538,055,391",$0.38,time-after-hours,Mar/2025,11,$0.43,2025-05-01 05:20:52
+APi Group Corporation,APG,"$10,405,651,332",$0.35,time-pre-market,Mar/2025,3,$0.34,2025-05-01 05:20:52
+"Roku, Inc.",ROKU,"$10,111,031,912",($0.27),time-after-hours,Mar/2025,9,($0.35),2025-05-01 05:20:52
+Ascendis Pharma A/S,ASND,"$10,109,654,744",($1.56),time-after-hours,Mar/2025,8,($2.48),2025-05-01 05:20:52
+"MasTec, Inc.",MTZ,"$10,103,364,724",$0.26,time-after-hours,Mar/2025,7,($0.23),2025-05-01 05:20:52
+"AptarGroup, Inc.",ATR,"$9,994,242,538",$1.16,time-after-hours,Mar/2025,5,$1.26,2025-05-01 05:20:52
+United States Steel Corporation,X,"$9,866,735,916",($0.53),time-after-hours,Mar/2025,4,$0.78,2025-05-01 05:20:52
+"Leonardo DRS, Inc.",DRS,"$9,850,608,518",$0.17,time-pre-market,Mar/2025,4,$0.14,2025-05-01 05:20:52
+"Procore Technologies, Inc.",PCOR,"$9,593,649,942",($0.15),time-after-hours,Mar/2025,7,($0.01),2025-05-01 05:20:52
+"Applied Industrial Technologies, Inc.",AIT,"$9,301,495,052",$2.40,time-pre-market,Mar/2025,4,$2.48,2025-05-01 05:20:52
+"Huntington Ingalls Industries, Inc.",HII,"$9,014,415,650",$2.90,time-pre-market,Mar/2025,9,$3.87,2025-05-01 05:20:52
+CubeSmart,CUBE,"$8,967,086,736",$0.62,time-after-hours,Mar/2025,7,$0.64,2025-05-01 05:20:52
+Exact Sciences Corporation,EXAS,"$8,319,984,635",($0.37),time-after-hours,Mar/2025,5,($0.50),2025-05-01 05:20:52
+"Allison Transmission Holdings, Inc.",ALSN,"$7,909,587,382",$1.97,time-after-hours,Mar/2025,5,$1.90,2025-05-01 05:20:52
+"WESCO International, Inc.",WCC,"$7,888,837,841",$2.23,time-pre-market,Mar/2025,5,$2.30,2025-05-01 05:20:52
+"Floor & Decor Holdings, Inc.",FND,"$7,786,174,330",$0.45,time-after-hours,Mar/2025,11,$0.46,2025-05-01 05:20:52
+"NNN REIT, Inc.",NNN,"$7,760,948,933",$0.81,time-pre-market,Mar/2025,6,$0.84,2025-05-01 05:20:52
+Graphic Packaging Holding Company,GPK,"$7,697,498,883",$0.56,time-pre-market,Mar/2025,5,$0.66,2025-05-01 05:20:52
+ATI Inc.,ATI,"$7,644,315,880",$0.58,time-pre-market,Mar/2025,4,$0.48,2025-05-01 05:20:52
+"Cullen/Frost Bankers, Inc.",CFR,"$7,555,966,814",$2.17,time-pre-market,Mar/2025,5,$2.15,2025-05-01 05:20:52
+"Madrigal Pharmaceuticals, Inc.",MDGL,"$7,524,947,837",($3.62),time-pre-market,Mar/2025,8,($7.38),2025-05-01 05:20:52
+"Casella Waste Systems, Inc.",CWST,"$7,430,048,363",$0.11,time-after-hours,Mar/2025,5,($0.01),2025-05-01 05:20:52
+The AES Corporation,AES,"$7,382,408,672",$0.37,time-after-hours,Mar/2025,5,$0.50,2025-05-01 05:20:52
+Dolby Laboratories,DLB,"$7,363,208,683",$1.01,time-after-hours,Mar/2025,3,$1.01,2025-05-01 05:20:52
+SiriusXM Holdings Inc.,SIRI,"$7,361,442,634",$0.70,time-pre-market,Mar/2025,6,$0.70,2025-05-01 05:20:52
+"AAON, Inc.",AAON,"$7,271,134,423",$0.25,time-pre-market,Mar/2025,3,$0.46,2025-05-01 05:20:52
+ESAB Corporation,ESAB,"$7,172,800,734",$1.18,time-pre-market,Mar/2025,6,$1.20,2025-05-01 05:20:52
+"Bio-Rad Laboratories, Inc.",BIO,"$6,787,659,929",$1.73,time-after-hours,Mar/2025,2,$2.29,2025-05-01 05:20:52
+"Mohawk Industries, Inc.",MHK,"$6,703,092,119",$1.41,time-after-hours,Mar/2025,7,$1.86,2025-05-01 05:20:52
+"Bio-Rad Laboratories, Inc.",BIO.B,"$6,566,091,796",,time-after-hours,Mar/2025,4,$2.29,2025-05-01 05:20:52
+Teleflex Incorporated,TFX,"$6,408,772,516",$2.88,time-pre-market,Mar/2025,13,$3.21,2025-05-01 05:20:52
+AGCO Corporation,AGCO,"$6,356,625,053",$0.03,time-pre-market,Mar/2025,8,$2.32,2025-05-01 05:20:52
+"IDACORP, Inc.",IDA,"$6,345,537,531",$1.03,time-pre-market,Mar/2025,3,$0.95,2025-05-01 05:20:52
+"Chart Industries, Inc.",GTLS,"$6,207,707,365",$1.84,time-pre-market,Mar/2025,8,$1.49,2025-05-01 05:20:52
+"SPX Technologies, Inc.",SPXC,"$6,207,376,131",$1.16,time-after-hours,Mar/2025,3,$1.25,2025-05-01 05:20:52
+Universal Display Corporation,OLED,"$5,894,711,099",$1.07,time-after-hours,Mar/2025,4,$1.19,2025-05-01 05:20:52
+"Arrow Electronics, Inc.",ARW,"$5,810,951,108",$1.47,time-pre-market,Mar/2025,4,$2.41,2025-05-01 05:20:52
+HF Sinclair Corporation,DINO,"$5,752,076,182",($0.41),time-pre-market,Mar/2025,4,$0.71,2025-05-01 05:20:52
+Blueprint Medicines Corporation,BPMC,"$5,654,403,853",($0.42),time-pre-market,Mar/2025,9,($1.32),2025-05-01 05:20:52
+Kirby Corporation,KEX,"$5,482,382,220",$1.27,time-pre-market,Mar/2025,3,$1.19,2025-05-01 05:20:52
+"CareTrust REIT, Inc.",CTRE,"$5,402,785,899",$0.43,time-after-hours,Mar/2025,5,$0.35,2025-05-01 05:20:52
+Healthcare Realty Trust Incorporated,HR,"$5,395,617,844",$0.39,time-after-hours,Mar/2025,4,$0.39,2025-05-01 05:20:52
+Janus Henderson Group plc,JHG,"$5,256,128,608",$0.73,time-pre-market,Mar/2025,5,$0.71,2025-05-01 05:20:52
+"Ryman Hospitality Properties, Inc.",RHP,"$5,233,760,145",$1.79,time-after-hours,Mar/2025,5,$1.60,2025-05-01 05:20:52
+"InterDigital, Inc.",IDCC,"$5,150,420,742",$1.74,time-pre-market,Mar/2025,3,$3.22,2025-05-01 05:20:52
+"Itron, Inc.",ITRI,"$5,009,533,008",$1.30,time-pre-market,Mar/2025,7,$1.24,2025-05-01 05:20:52
+Enstar Group Limited,ESGR,"$4,979,151,917",,time-not-supplied,Mar/2025,4,$9.50,2025-05-01 05:20:52
+Alkermes plc,ALKS,"$4,678,406,708",$0.18,time-pre-market,Mar/2025,5,$0.29,2025-05-01 05:20:52
+Vontier Corporation,VNT,"$4,657,284,000",$0.71,time-pre-market,Mar/2025,1,$0.74,2025-05-01 05:20:52
+"Red Rock Resorts, Inc.",RRR,"$4,622,461,447",$0.47,time-after-hours,Mar/2025,6,$0.68,2025-05-01 05:20:52
+WillScot Holdings Corporation,WSC,"$4,615,076,883",$0.28,time-after-hours,Mar/2025,6,$0.29,2025-05-01 05:20:52
+Cousins Properties Incorporated,CUZ,"$4,590,543,942",$0.71,time-after-hours,Mar/2025,4,$0.65,2025-05-01 05:20:52
+"Insight Enterprises, Inc.",NSIT,"$4,427,266,099",$2.03,time-pre-market,Mar/2025,3,$2.37,2025-05-01 05:20:52
+"Grupo Simec, S.A. de C.V.",SIM,"$4,303,984,664",,time-not-supplied,Mar/2025,4,$0.52,2025-05-01 05:20:52
+Workiva Inc.,WK,"$4,173,530,996",($0.42),time-after-hours,Mar/2025,5,($0.19),2025-05-01 05:20:52
+Belden Inc,BDC,"$4,137,679,823",$1.48,time-pre-market,Mar/2025,1,$1.24,2025-05-01 05:20:52
+"Exponent, Inc.",EXPO,"$4,008,542,298",$0.47,time-after-hours,Mar/2025,2,$0.59,2025-05-01 05:20:52
+Wayfair Inc.,W,"$3,956,882,653",($0.90),time-pre-market,Mar/2025,9,($1.38),2025-05-01 05:20:52
+"Dun & Bradstreet Holdings, Inc.",DNB,"$3,951,571,503",$0.17,time-pre-market,Mar/2025,4,$0.17,2025-05-01 05:20:52
+International Bancshares Corporation,IBOC,"$3,836,228,078",,time-not-supplied,Mar/2025,4,$1.56,2025-05-01 05:20:52
+Eldorado Gold Corporation,EGO,"$3,830,504,379",$0.31,time-after-hours,Mar/2025,4,$0.27,2025-05-01 05:20:52
+"Schneider National, Inc.",SNDR,"$3,808,082,656",$0.14,time-pre-market,Mar/2025,7,$0.11,2025-05-01 05:20:52
+"Shake Shack, Inc.",SHAK,"$3,753,943,339",$0.16,time-pre-market,Mar/2025,13,$0.13,2025-05-01 05:20:52
+Hecla Mining Company,HL,"$3,664,620,595",$0.03,time-after-hours,Mar/2025,3,$0.01,2025-05-01 05:20:52
+"Lumen Technologies, Inc. ",LUMN,"$3,619,263,676",($0.25),time-after-hours,Mar/2025,2,($0.04),2025-05-01 05:20:52
+Ultragenyx Pharmaceutical Inc.,RARE,"$3,521,517,867",($1.54),time-not-supplied,Mar/2025,9,($2.03),2025-05-01 05:20:52
+Granite Construction Incorporated,GVA,"$3,503,867,811",($0.43),time-pre-market,Mar/2025,1,($0.21),2025-05-01 05:20:52
+Columbia Sportswear Company,COLM,"$3,472,208,966",$0.68,time-after-hours,Mar/2025,5,$0.71,2025-05-01 05:20:52
+"SpringWorks Therapeutics, Inc.",SWTX,"$3,465,033,704",($0.79),time-not-supplied,Mar/2025,6,($1.18),2025-05-01 05:20:52
+"OSI Systems, Inc.",OSIS,"$3,412,270,363",$2.38,time-pre-market,Mar/2025,5,$2.16,2025-05-01 05:20:52
+Organon & Co.,OGN,"$3,394,623,961",$0.86,time-pre-market,Mar/2025,3,$1.14,2025-05-01 05:20:52
+"iRhythm Technologies, Inc.",IRTC,"$3,349,521,557",($0.89),time-after-hours,Mar/2025,5,($1.47),2025-05-01 05:20:52
+"Alignment Healthcare, Inc.",ALHC,"$3,343,637,547",($0.12),time-after-hours,Mar/2025,5,($0.25),2025-05-01 05:20:52
+"Medical Properties Trust, Inc.",MPW,"$3,297,294,000",$0.15,time-pre-market,Mar/2025,4,$0.24,2025-05-01 05:20:52
+Hilton Grand Vacations Inc.,HGV,"$3,233,831,438",$0.49,time-pre-market,Mar/2025,4,$0.95,2025-05-01 05:20:52
+Sotera Health Company,SHC,"$3,206,083,498",$0.10,time-pre-market,Mar/2025,3,$0.11,2025-05-01 05:20:52
+Zeta Global Holdings Corp.,ZETA,"$3,197,367,033",($0.06),time-after-hours,Mar/2025,4,($0.23),2025-05-01 05:20:52
+"Hercules Capital, Inc.",HTGC,"$3,142,757,043",$0.46,time-after-hours,Mar/2025,4,$0.50,2025-05-01 05:20:52
+"frontdoor, inc.",FTDR,"$3,078,025,002",$0.37,time-pre-market,Mar/2025,4,$0.43,2025-05-01 05:20:52
+"Laureate Education, Inc.",LAUR,"$3,069,979,485",($0.08),time-pre-market,Mar/2025,1,($0.07),2025-05-01 05:20:52
+California Water  Service Group Holding,CWT,"$3,002,381,769",$0.16,time-pre-market,Mar/2025,3,$1.21,2025-05-01 05:20:52
+"Harley-Davidson, Inc.",HOG,"$2,884,273,446",$0.80,time-pre-market,Mar/2025,5,$1.72,2025-05-01 05:20:52
+"Hayward Holdings, Inc.",HAYW,"$2,860,757,826",$0.08,time-pre-market,Mar/2025,2,$0.07,2025-05-01 05:20:52
+"Apple Hospitality REIT, Inc.",APLE,"$2,841,279,145",$0.31,time-after-hours,Mar/2025,1,$0.34,2025-05-01 05:20:52
+Envista Holdings Corporation,NVST,"$2,789,446,572",$0.21,time-after-hours,Mar/2025,8,$0.26,2025-05-01 05:20:52
+SM Energy Company,SM,"$2,662,384,585",$1.57,time-after-hours,Mar/2025,6,$1.41,2025-05-01 05:20:52
+"Patrick Industries, Inc.",PATK,"$2,641,782,001",$0.98,time-pre-market,Mar/2025,4,$1.19,2025-05-01 05:20:52
+"Walker & Dunlop, Inc.",WD,"$2,619,364,530",$0.25,time-pre-market,Mar/2025,1,$1.19,2025-05-01 05:20:52
+"Riot Platforms, Inc.",RIOT,"$2,598,539,917",($0.25),time-after-hours,Mar/2025,4,$0.81,2025-05-01 05:20:52
+Olin Corporation,OLN,"$2,542,787,636",($0.10),time-after-hours,Mar/2025,6,$0.40,2025-05-01 05:20:52
+Sandstorm Gold Ltd,SAND,"$2,484,610,741",$0.05,time-not-supplied,Mar/2025,4,($0.01),2025-05-01 05:20:52
+Valaris Limited,VAL,"$2,376,740,725",$1.10,time-pre-market,Mar/2025,2,$0.35,2025-05-01 05:20:52
+Select Medical Holdings Corporation,SEM,"$2,374,206,069",$0.45,time-after-hours,Mar/2025,3,$0.77,2025-05-01 05:20:52
+Viavi Solutions Inc.,VIAV,"$2,339,107,517",$0.07,time-after-hours,Mar/2025,4,N/A,2025-05-01 05:20:52
+LXP Industrial Trust,LXP,"$2,333,294,362",$0.16,time-pre-market,Mar/2025,2,$0.16,2025-05-01 05:20:52
+Huntsman Corporation,HUN,"$2,328,362,527",($0.11),time-after-hours,Mar/2025,6,($0.06),2025-05-01 05:20:52
+"Amicus Therapeutics, Inc.",FOLD,"$2,256,872,929",$0.01,time-pre-market,Mar/2025,4,($0.02),2025-05-01 05:20:52
+"Skyward Specialty Insurance Group, Inc.",SKWD,"$2,148,448,194",$0.78,time-after-hours,Mar/2025,6,$0.75,2025-05-01 05:20:52
+"Dream Finders Homes, Inc.",DFH,"$2,121,019,923",$0.61,time-not-supplied,Mar/2025,2,$0.55,2025-05-01 05:20:52
+"LeMaitre Vascular, Inc.",LMAT,"$2,088,929,231",$0.50,time-after-hours,Mar/2025,5,$0.44,2025-05-01 05:20:52
+"Trinity Industries, Inc.",TRN,"$2,048,824,245",,time-pre-market,Mar/2025,N/A,$0.33,2025-05-01 05:20:52
+"Alamo Group, Inc.",ALG,"$2,033,900,705",$2.33,time-not-supplied,Mar/2025,1,$2.67,2025-05-01 05:20:52
+PBF Energy Inc.,PBF,"$1,985,698,349",($3.50),time-pre-market,Mar/2025,10,$0.86,2025-05-01 05:20:52
+"Tarsus Pharmaceuticals, Inc.",TARS,"$1,953,398,360",($0.69),time-after-hours,Mar/2025,5,($1.01),2025-05-01 05:20:52
+"Five9, Inc.",FIVN,"$1,920,256,205",($0.04),time-after-hours,Mar/2025,9,($0.13),2025-05-01 05:20:52
+Utz Brands Inc ,UTZ,"$1,890,655,965",$0.16,time-pre-market,Mar/2025,4,$0.14,2025-05-01 05:20:52
+Garrett Motion Inc.,GTX,"$1,888,140,267",$0.29,time-pre-market,Mar/2025,1,$0.28,2025-05-01 05:20:52
+Scorpio Tankers Inc.,STNG,"$1,886,845,288",$0.71,time-pre-market,Mar/2025,5,$3.97,2025-05-01 05:20:52
+Quaker Houghton,KWR,"$1,872,841,891",$1.52,time-after-hours,Mar/2025,4,$2.09,2025-05-01 05:20:52
+"Travere Therapeutics, Inc.",TVTX,"$1,781,895,706",($0.55),time-after-hours,Mar/2025,6,($1.76),2025-05-01 05:20:52
+Materion Corporation,MTRN,"$1,726,835,196",$1.12,time-pre-market,Mar/2025,2,$0.96,2025-05-01 05:20:52
+Standex International Corporation,SXI,"$1,693,810,669",$1.93,time-after-hours,Mar/2025,5,$1.75,2025-05-01 05:20:52
+"Agios Pharmaceuticals, Inc.",AGIO,"$1,667,318,460",($1.80),time-pre-market,Mar/2025,5,($1.45),2025-05-01 05:20:52
+Perdoceo Education Corporation,PRDO,"$1,662,358,016",$0.66,time-after-hours,Mar/2025,1,$0.60,2025-05-01 05:20:52
+"Alphatec Holdings, Inc.",ATEC,"$1,615,912,891",($0.25),time-after-hours,Mar/2025,5,($0.34),2025-05-01 05:20:52
+"Trupanion, Inc.",TRUP,"$1,606,996,912",($0.05),time-after-hours,Mar/2025,5,($0.16),2025-05-01 05:20:52
+"ICF International, Inc.",ICFI,"$1,559,697,952",$1.74,time-after-hours,Mar/2025,4,$1.77,2025-05-01 05:20:52
+"Cable One, Inc.",CABO,"$1,530,912,989",$12.21,time-after-hours,Mar/2025,1,$8.11,2025-05-01 05:20:52
+Diamondrock Hospitality Company,DRH,"$1,496,163,958",$0.17,time-after-hours,Mar/2025,5,$0.17,2025-05-01 05:20:52
+"Savers Value Village, Inc.",SVV,"$1,475,983,247",($0.03),time-after-hours,Mar/2025,4,($0.01),2025-05-01 05:20:52
+"DigitalBridge Group, Inc.",DBRG,"$1,458,501,342",$0.02,time-pre-market,Mar/2025,5,$0.01,2025-05-01 05:20:52
+"UMH Properties, Inc.",UMH,"$1,453,798,043",$0.23,time-after-hours,Mar/2025,3,$0.22,2025-05-01 05:20:52
+"Dorchester Minerals, L.P.",DMLP,"$1,376,640,104",,time-not-supplied,Mar/2025,4,$0.44,2025-05-01 05:20:52
+Elme Communities,ELME,"$1,356,531,390",$0.23,time-after-hours,Mar/2025,2,$0.23,2025-05-01 05:20:52
+"Dyne Therapeutics, Inc.",DYN,"$1,325,782,304",($0.88),time-not-supplied,Mar/2025,8,($0.81),2025-05-01 05:20:52
+"Ardelyx, Inc.",ARDX,"$1,299,041,410",($0.10),time-after-hours,Mar/2025,7,($0.11),2025-05-01 05:20:52
+"A10 Networks, Inc.",ATEN,"$1,233,132,894",$0.14,time-after-hours,Mar/2025,2,$0.13,2025-05-01 05:20:52
+"Distribution Solutions Group, Inc.",DSGR,"$1,224,965,001",$0.36,time-pre-market,Mar/2025,1,$0.25,2025-05-01 05:20:52
+Oaktree Specialty Lending Corporation,OCSL,"$1,202,426,564",$0.51,time-pre-market,Mar/2025,2,$0.56,2025-05-01 05:20:52
+Employers Holdings Inc,EIG,"$1,199,105,793",$0.69,time-after-hours,Mar/2025,1,$0.67,2025-05-01 05:20:52
+"Grid Dynamics Holdings, Inc.",GDYN,"$1,190,504,655",$0.02,time-after-hours,Mar/2025,4,($0.08),2025-05-01 05:20:52
+"Upbound Group, Inc.",UPBD,"$1,180,054,384",$0.94,time-pre-market,Mar/2025,3,$0.79,2025-05-01 05:20:52
+Aurinia Pharmaceuticals Inc,AUPH,"$1,161,086,709",$0.09,time-not-supplied,Mar/2025,3,($0.03),2025-05-01 05:20:52
+"NV5 Global, Inc.",NVEE,"$1,158,444,059",$0.20,time-after-hours,Mar/2025,2,$0.17,2025-05-01 05:20:52
+Tutor Perini Corporation,TPC,"$1,142,614,103",$0.06,time-not-supplied,Mar/2025,1,$0.30,2025-05-01 05:20:52
+Adaptive Biotechnologies Corporation,ADPT,"$1,130,710,550",($0.28),time-after-hours,Mar/2025,4,($0.33),2025-05-01 05:20:52
+Middlesex Water Company,MSEX,"$1,123,868,735",$0.55,time-after-hours,Mar/2025,2,$0.59,2025-05-01 05:20:52
+"CRA International,Inc.",CRAI,"$1,104,918,408",$1.93,time-pre-market,Mar/2025,4,$1.96,2025-05-01 05:20:52
+"Innovex International, Inc.",INVX,"$1,091,553,912",,time-not-supplied,Mar/2025,4,($0.62),2025-05-01 05:20:52
+Pebblebrook Hotel Trust,PEB,"$1,078,325,685",$0.10,time-after-hours,Mar/2025,4,$0.21,2025-05-01 05:20:52
+"BigBear.ai, Inc.",BBAI,"$1,034,644,874",($0.06),time-after-hours,Mar/2025,2,($0.22),2025-05-01 05:20:52
+Grupo Televisa S.A.B.,TV,"$1,015,553,700",($0.06),time-not-supplied,Mar/2025,2,$0.09,2025-05-01 05:20:52
+D/B/A Centerspace,CSR,"$1,010,286,278",$1.21,time-after-hours,Mar/2025,4,$1.23,2025-05-01 05:20:52
+Acadian Asset Management Inc.,AAMI,"$1,000,656,889",$0.54,time-pre-market,Mar/2025,1,$0.44,2025-05-01 05:20:52
+"PROS Holdings, Inc.",PRO,"$844,324,563",($0.07),time-after-hours,Mar/2025,3,($0.19),2025-05-01 05:20:52
+"CommScope Holding Company, Inc.",COMM,"$840,241,734",$0.07,time-pre-market,Mar/2025,5,($0.12),2025-05-01 05:20:52
+"Vir Biotechnology, Inc.",VIR,"$820,116,850",($0.83),time-not-supplied,Mar/2025,5,($0.48),2025-05-01 05:20:52
+"Emerald Holding, Inc.",EEX,"$798,186,229",,time-pre-market,Mar/2025,4,N/A,2025-05-01 05:20:52
+"Saul Centers, Inc.",BFS,"$788,703,909",$0.73,time-not-supplied,Mar/2025,1,$0.80,2025-05-01 05:20:52
+"Cohu, Inc.",COHU,"$770,715,545",($0.27),time-after-hours,Mar/2025,3,($0.06),2025-05-01 05:20:52
+"BJ's Restaurants, Inc.",BJRI,"$754,470,094",$0.40,time-after-hours,Mar/2025,7,$0.32,2025-05-01 05:20:52
+"Frontier Group Holdings, Inc.",ULCC,"$711,287,724",($0.22),time-after-hours,Mar/2025,4,($0.09),2025-05-01 05:20:52
+"LendingTree, Inc.",TREE,"$710,129,732",$0.19,time-after-hours,Mar/2025,4,$0.11,2025-05-01 05:20:52
+Ecovyst Inc.,ECVT,"$688,946,832",($0.06),time-pre-market,Mar/2025,4,$0.02,2025-05-01 05:20:52
+Wheels Up Experience Inc.,UP,"$688,589,707",,time-pre-market,Mar/2025,4,($0.13),2025-05-01 05:20:52
+Arbutus Biopharma Corporation,ABUS,"$652,947,441",($0.09),time-not-supplied,Mar/2025,2,($0.10),2025-05-01 05:20:52
+"Arvinas, Inc.",ARVN,"$644,392,394",($0.86),time-pre-market,Mar/2025,10,($0.97),2025-05-01 05:20:52
+"MGP Ingredients, Inc.",MGPI,"$628,538,636",$0.31,time-pre-market,Mar/2025,3,$1.07,2025-05-01 05:20:52
+"Velocity Financial, Inc.",VEL,"$607,856,842",,time-after-hours,Mar/2025,N/A,$0.51,2025-05-01 05:20:52
+"Beazer Homes USA, Inc.",BZH,"$603,779,753",$0.26,time-after-hours,Mar/2025,2,$1.26,2025-05-01 05:20:52
+"Thryv Holdings, Inc.",THRY,"$595,052,164",$0.09,time-pre-market,Mar/2025,1,$0.22,2025-05-01 05:20:52
+"Shutterstock, Inc.",SSTK,"$586,213,471",$0.93,time-not-supplied,Mar/2025,1,$0.89,2025-05-01 05:20:52
+OneSpan Inc.,OSPN,"$581,035,965",$0.25,time-after-hours,Mar/2025,1,$0.40,2025-05-01 05:20:52
+"CTO Realty Growth, Inc.",CTO,"$578,899,177",$0.43,time-after-hours,Mar/2025,3,$0.52,2025-05-01 05:20:52
+Bicycle Therapeutics plc,BCYC,"$568,151,335",($0.86),time-not-supplied,Mar/2025,5,($0.62),2025-05-01 05:20:52
+Xerox Holdings Corporation,XRX,"$556,249,398",($0.04),time-pre-market,Mar/2025,2,$0.06,2025-05-01 05:20:52
+Enviri Corporation,NVRI,"$546,146,861",($0.15),time-pre-market,Mar/2025,1,($0.03),2025-05-01 05:20:52
+"Kura Oncology, Inc.",KURA,"$526,522,346",($0.51),time-after-hours,Mar/2025,6,($0.59),2025-05-01 05:20:52
+"Clear Channel Outdoor Holdings, Inc.",CCO,"$509,660,646",($0.14),time-pre-market,Mar/2025,2,($0.17),2025-05-01 05:20:52
+"Gannett Co., Inc.",GCI,"$502,528,529",,time-pre-market,Mar/2025,4,($0.26),2025-05-01 05:20:52
+NPK International Inc.,NPKI,"$501,150,474",$0.08,time-after-hours,Mar/2025,3,$0.10,2025-05-01 05:20:52
+Peoples Financial Services Corp. ,PFIS,"$436,829,129",,time-not-supplied,Mar/2025,N/A,$0.55,2025-05-01 05:20:52
+"Myers Industries, Inc.",MYE,"$393,099,461",,time-pre-market,Mar/2025,N/A,$0.21,2025-05-01 05:20:52
+"Oruka Therapeutics, Inc.",ORKA,"$391,253,330",($0.57),time-not-supplied,Mar/2025,5,($1.68),2025-05-01 05:20:52
+"LiveWire Group, Inc.",LVWR,"$388,636,759",,time-pre-market,Mar/2025,4,($0.12),2025-05-01 05:20:52
+SNDL Inc.,SNDL,"$380,782,932",($0.06),time-pre-market,Mar/2025,1,($0.01),2025-05-01 05:20:52
+Acco Brands Corporation,ACCO,"$364,093,551",($0.04),time-after-hours,Mar/2025,3,$0.03,2025-05-01 05:20:52
+"Olympic Steel, Inc.",ZEUS,"$353,341,790",,time-after-hours,Mar/2025,N/A,$0.77,2025-05-01 05:20:52
+"Midland States Bancorp, Inc.",MSBI,"$352,482,458",$0.52,time-not-supplied,Mar/2025,3,$0.53,2025-05-01 05:20:52
+Ranpak Holdings Corp,PACK,"$350,324,982",,time-not-supplied,Mar/2025,N/A,($0.10),2025-05-01 05:20:52
+"Red River Bancshares, Inc.",RRBI,"$347,558,251",$1.28,time-not-supplied,Mar/2025,2,$1.16,2025-05-01 05:20:52
+Obsidian Energy Ltd.,OBE,"$324,949,977",,time-not-supplied,Mar/2025,N/A,$0.11,2025-05-01 05:20:52
+"Rimini Street, Inc.",RMNI,"$316,797,120",$0.05,time-after-hours,Mar/2025,2,$0.04,2025-05-01 05:20:52
+Mercer International Inc.,MERC,"$308,274,268",,time-after-hours,Mar/2025,N/A,$0.10,2025-05-01 05:20:52
+"Phathom Pharmaceuticals, Inc.",PHAT,"$303,617,189",($1.15),time-pre-market,Mar/2025,2,($1.42),2025-05-01 05:20:52
+"aTyr Pharma, Inc.",ATYR,"$300,342,109",($0.19),time-not-supplied,Mar/2025,3,($0.23),2025-05-01 05:20:52
+"El Pollo Loco Holdings, Inc.",LOCO,"$279,012,430",$0.20,time-after-hours,Mar/2025,3,$0.22,2025-05-01 05:20:52
+Asure Software Inc,ASUR,"$271,413,619",$0.12,time-after-hours,Mar/2025,4,$0.15,2025-05-01 05:20:52
+The First of Long Island Corporation,FLIC,"$263,475,288",,time-not-supplied,Mar/2025,4,$0.20,2025-05-01 05:20:52
+"Citizens Financial Services, Inc.",CZFS,"$261,675,716",$1.49,time-not-supplied,Mar/2025,1,$1.49,2025-05-01 05:20:52
+Cooper-Standard Holdings Inc. ,CPS,"$259,031,638",,time-after-hours,Mar/2025,4,($1.75),2025-05-01 05:20:52
+"NexPoint Real Estate Finance, Inc.",NREF,"$255,654,692",$0.40,time-pre-market,Mar/2025,1,($0.53),2025-05-01 05:20:52
+Cerus Corporation,CERS,"$252,674,148",($0.05),time-after-hours,Mar/2025,1,($0.05),2025-05-01 05:20:52
+"Lexicon Pharmaceuticals, Inc.",LXRX,"$241,766,047",($0.10),time-not-supplied,Mar/2025,3,($0.20),2025-05-01 05:20:52
+OneWater Marine Inc.,ONEW,"$240,618,446",$0.25,time-pre-market,Mar/2025,3,$0.67,2025-05-01 05:20:52
+"Oil States International, Inc.",OIS,"$225,426,219",$0.05,time-pre-market,Mar/2025,2,($0.03),2025-05-01 05:20:52
+Altisource Portfolio Solutions S.A.,ASPS,"$220,707,186",,time-pre-market,Mar/2025,4,($0.27),2025-05-01 05:20:52
+"Pro-Dex, Inc.",PDEX,"$216,533,255",$0.47,time-not-supplied,Mar/2025,1,$0.19,2025-05-01 05:20:52
+Silvercrest Asset Management Group Inc.,SAMG,"$206,964,925",$0.36,time-not-supplied,Mar/2025,1,$0.33,2025-05-01 05:20:52
+"Fulcrum Therapeutics, Inc.",FULC,"$197,024,467",($0.29),time-pre-market,Mar/2025,4,($0.43),2025-05-01 05:20:52
+"Codexis, Inc.",CDXS,"$193,010,935",($0.20),time-not-supplied,Mar/2025,3,($0.16),2025-05-01 05:20:52
+"Traeger, Inc.",COOK,"$192,053,764",($0.01),time-after-hours,Mar/2025,5,($0.05),2025-05-01 05:20:52
+"Forum Energy Technologies, Inc.",FET,"$188,447,709",$0.43,time-after-hours,Mar/2025,1,($0.12),2025-05-01 05:20:52
+"Cardiff Oncology, Inc.",CRDF,"$184,937,537",($0.19),time-not-supplied,Mar/2025,4,($0.22),2025-05-01 05:20:52
+"Modiv Industrial, Inc.",MDV,"$165,544,013",$0.31,time-not-supplied,Mar/2025,2,$0.29,2025-05-01 05:20:52
+"Aldeyra Therapeutics, Inc.",ALDX,"$160,616,279",($0.25),time-not-supplied,Mar/2025,4,($0.14),2025-05-01 05:20:52
+"RE/MAX Holdings, Inc.",RMAX,"$146,548,158",$0.05,time-after-hours,Mar/2025,2,$0.08,2025-05-01 05:20:52
+Gran Tierra Energy Inc.,GTE,"$138,069,000",,time-after-hours,Mar/2025,4,N/A,2025-05-01 05:20:52
+DMC Global Inc.,BOOM,"$137,644,587",($0.07),time-after-hours,Mar/2025,2,$0.21,2025-05-01 05:20:52
+"SB Financial Group, Inc.",SBFG,"$129,326,027",$0.40,time-after-hours,Mar/2025,1,$0.33,2025-05-01 05:20:52
+Atomera Incorporated,ATOM,"$128,649,194",,time-not-supplied,Mar/2025,4,($0.19),2025-05-01 05:20:52
+Vista Gold Corporation,VGZ,"$127,464,571",,time-not-supplied,Mar/2025,N/A,($0.01),2025-05-01 05:20:52
+"Protara Therapeutics, Inc. ",TARA,"$125,009,381",($0.47),time-not-supplied,Mar/2025,3,($0.97),2025-05-01 05:20:52
+OFS Capital Corporation,OFS,"$121,654,548",,time-after-hours,Mar/2025,N/A,$0.42,2025-05-01 05:20:52
+American Well Corporation,AMWL,"$113,952,927",($3.09),time-after-hours,Mar/2025,4,$5,2025-05-01 05:20:52
+NioCorp Developments Ltd.,NB,"$100,408,500",,time-not-supplied,Mar/2025,N/A,($0.11),2025-05-01 05:20:52
+Youxin Technology Ltd,YAAS,"$96,959,500",,time-not-supplied,Mar/2025,4,N/A,2025-05-01 05:20:52
+"Biomea Fusion, Inc.",BMEA,"$82,658,950",($0.84),time-not-supplied,Mar/2025,2,($1.09),2025-05-01 05:20:52
+"GSI Technology, Inc.",GSIT,"$78,341,425",,time-after-hours,Mar/2025,4,($0.17),2025-05-01 05:20:52
+Great Elm Capital Corp.,GECC,"$77,007,855",$0.39,time-not-supplied,Mar/2025,2,$0.37,2025-05-01 05:20:52
+"NCS Multistage Holdings, Inc.",NCSM,"$74,955,300",,time-pre-market,Mar/2025,N/A,$0.99,2025-05-01 05:20:52
+"Superior Industries International, Inc.",SUP,"$72,833,688",,time-not-supplied,Mar/2025,4,($1.07),2025-05-01 05:20:52
+"Upland Software, Inc.",UPLD,"$67,322,158",,time-not-supplied,Mar/2025,N/A,$0.07,2025-05-01 05:20:52
+Gold Resource Corporation,GORO,"$62,594,064",,time-not-supplied,Mar/2025,N/A,($0.05),2025-05-01 05:20:52
+AXT Inc,AXTI,"$61,557,293",($0.15),time-after-hours,Mar/2025,3,($0.05),2025-05-01 05:20:52
+"WW International, Inc. ",WW,"$58,653,031",($0.26),time-not-supplied,Mar/2025,1,($0.06),2025-05-01 05:20:52
+"Where Food Comes From, Inc.",WFCF,"$58,107,239",,time-not-supplied,Mar/2025,4,$0.03,2025-05-01 05:20:52
+"Lee Enterprises, Incorporated",LEE,"$52,622,982",($0.58),time-not-supplied,Mar/2025,1,($2.06),2025-05-01 05:20:52
+Sachem Capital Corp.,SACH,"$48,729,443",,time-pre-market,Mar/2025,N/A,$0.08,2025-05-01 05:20:52
+"FTC Solar, Inc.",FTCI,"$44,007,435",($0.79),time-pre-market,Mar/2025,2,$1,2025-05-01 05:20:52
+Barfresh Food Group Inc.,BRFH,"$43,635,821",($0.05),time-after-hours,Mar/2025,1,($0.03),2025-05-01 05:20:52
+"Shattuck Labs, Inc.",STTK,"$39,799,479",($0.29),time-not-supplied,Mar/2025,3,($0.37),2025-05-01 05:20:52
+"Rave Restaurant Group, Inc.",RAVE,"$35,763,817",,time-not-supplied,Mar/2025,4,$0.04,2025-05-01 05:20:52
+DallasNews Corporation,DALN,"$27,725,898",,time-pre-market,Mar/2025,4,($0.25),2025-05-01 05:20:52
+"X4 Pharmaceuticals, Inc.",XFOR,"$25,181,041",($4.13),time-pre-market,Mar/2025,4,($7.81),2025-05-01 05:20:52
+CPS Technologies Corp.,CPSH,"$22,369,978",,time-pre-market,Mar/2025,4,($0.01),2025-05-01 05:20:52
+"Elevation Oncology, Inc.",ELEV,"$20,512,351",($0.20),time-not-supplied,Mar/2025,5,($0.23),2025-05-01 05:20:52
+Good Times Restaurants Inc.,GTIM,"$20,217,081",,time-not-supplied,Mar/2025,4,$0.06,2025-05-01 05:20:52
+"Kirkland's, Inc.",KIRK,"$17,971,581",$0.50,time-pre-market,Jan/2025,1,$0.78,2025-05-01 05:20:52
+Cohen & Company Inc.,COHN,"$17,094,888",,time-pre-market,Mar/2025,4,$1.37,2025-05-01 05:20:52
+"NextCure, Inc.",NXTC,"$13,812,897",($0.40),time-not-supplied,Mar/2025,2,($0.61),2025-05-01 05:20:52
+Cumulus Media Inc.,CMLS,"$4,135,146",($1.29),time-pre-market,Mar/2025,2,($0.85),2025-05-01 05:20:52
+Marin Software Incorporated,MRIN,"$1,932,907",,time-not-supplied,Mar/2025,4,($0.78),2025-05-01 05:20:52
+"Reinsurance Group of America, Incorporated",RZC,,,time-after-hours,Mar/2025,4,$6.02,2025-05-01 05:20:52
