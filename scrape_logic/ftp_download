@@ -1,0 +1,46 @@
+import os
+import ftplib
+from datetime import datetime
+
+# FTP credentials
+FTP_SERVER = "ftp2.interactivebrokers.com"
+FTP_USERNAME = "shortstock"
+FTP_PASSWORD = ""
+
+# Base download directory
+BASE_DIR = os.path.join(os.getcwd(), "data", "ftp_raw_downloads")
+os.makedirs(BASE_DIR, exist_ok=True)
+
+def download_ftp_snapshot():
+    """
+    Connects to the FTP server, downloads all raw files except .md5 into a timestamped folder,
+    and returns the full path to that folder.
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    snapshot_dir = os.path.join(BASE_DIR, timestamp)
+    os.makedirs(snapshot_dir, exist_ok=True)
+
+    try:
+        with ftplib.FTP(FTP_SERVER) as ftp:
+            ftp.login(FTP_USERNAME, FTP_PASSWORD)
+            print(f"✅ Connected to FTP: {FTP_SERVER}")
+
+            files = ftp.nlst()
+            for file in files:
+                if file.endswith(".md5"):
+                    continue  # Skip checksums
+
+                local_path = os.path.join(snapshot_dir, file)
+                with open(local_path, "wb") as f:
+                    ftp.retrbinary(f"RETR {file}", f.write)
+
+                print(f"📥 Downloaded: {file}")
+
+        return snapshot_dir
+
+    except ftplib.all_errors as e:
+        print(f"❌ FTP error: {e}")
+        return None
+
+if __name__ == "__main__":
+    download_ftp_snapshot()
