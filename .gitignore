@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Local parquet output
+data_upload/parquet/
+
+# OS
+.DS_Store
