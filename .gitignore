@@ -11,3 +11,4 @@ data_upload/parquet/
 
 # OS
 .DS_Store
+gcp_key.json

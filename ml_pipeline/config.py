@@ -5,6 +5,8 @@ Centralized configuration — all secrets from environment variables.
 import os
 from dataclasses import dataclass, field
 from pathlib import Path
+from dotenv import load_dotenv
+load_dotenv()
 
 
 @dataclass

@@ -1,9 +1,9 @@
 # ── existing scrapers ──────────────────────────────────────
-requests==2.31.0
-beautifulsoup4==4.12.2
-pandas==2.0.3
-numpy==1.24.3
-holidays==0.30
+requests
+beautifulsoup4
+pandas
+numpy
+holidays
 
 # ── ML pipeline: parquet + arrow ───────────────────────────
 pyarrow>=14.0.0
@@ -17,6 +17,9 @@ boto3>=1.34.0                   # S3 backend
 
 # ── ML pipeline: metadata tracking ─────────────────────────
 supabase>=2.3.0
+
+# ── ML pipeline: config ───────────────────────────────────
+python-dotenv>=1.0.0
 
 # ── testing ────────────────────────────────────────────────
 pytest>=7.0.0
