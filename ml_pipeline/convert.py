@@ -67,6 +67,15 @@ ATS_DTYPES = {
 }
 
 
+def _sanitize_for_arrow(df: pd.DataFrame) -> pd.DataFrame:
+    """Coerce object columns to pandas StringDtype so PyArrow sees
+    proper nulls instead of mixed str/float(NaN) types."""
+    for col in df.columns:
+        if df[col].dtype == "object":
+            df[col] = df[col].astype("string")
+    return df
+
+
 class ParquetConverter:
     """Reads local raw files and writes Parquet with proper schemas."""
 
@@ -109,7 +118,7 @@ class ParquetConverter:
             df["TIMESTAMP"] = pd.to_datetime(df["TIMESTAMP"], errors="coerce")
 
         out = self.cfg.parquet_dir / "stock_loan.parquet"
-        table = pa.Table.from_pandas(df)
+        table = pa.Table.from_pandas(_sanitize_for_arrow(df))
         pq.write_table(table, out, compression="snappy")
         log.info("wrote %s  (%d rows, %.1f MB)", out.name, len(df), out.stat().st_size / 1e6)
         return out
@@ -127,7 +136,7 @@ class ParquetConverter:
                 df[col] = df[col].astype(dtype, errors="ignore")
 
         out = self.cfg.parquet_dir / "earnings.parquet"
-        pq.write_table(pa.Table.from_pandas(df), out, compression="snappy")
+        pq.write_table(pa.Table.from_pandas(_sanitize_for_arrow(df)), out, compression="snappy")
         log.info("wrote %s  (%d rows)", out.name, len(df))
         return out
 
@@ -154,7 +163,7 @@ class ParquetConverter:
 
         df = pd.concat(frames, ignore_index=True)
         out = self.cfg.parquet_dir / "nasdaq_earnings.parquet"
-        pq.write_table(pa.Table.from_pandas(df), out, compression="snappy")
+        pq.write_table(pa.Table.from_pandas(_sanitize_for_arrow(df)), out, compression="snappy")
         log.info("wrote %s  (%d rows from %d files)", out.name, len(df), len(csvs))
         return out
 
@@ -167,7 +176,7 @@ class ParquetConverter:
 
         df = pd.read_csv(src)
         out = self.cfg.parquet_dir / "fomc.parquet"
-        pq.write_table(pa.Table.from_pandas(df), out, compression="snappy")
+        pq.write_table(pa.Table.from_pandas(_sanitize_for_arrow(df)), out, compression="snappy")
         log.info("wrote %s  (%d rows)", out.name, len(df))
         return out
 
@@ -194,7 +203,7 @@ class ParquetConverter:
 
         df = pd.concat(frames, ignore_index=True)
         out = self.cfg.parquet_dir / "ats_otc.parquet"
-        pq.write_table(pa.Table.from_pandas(df), out, compression="snappy")
+        pq.write_table(pa.Table.from_pandas(_sanitize_for_arrow(df)), out, compression="snappy")
         log.info("wrote %s  (%d rows from %d files)", out.name, len(df), len(csvs))
         return out
 
@@ -222,7 +231,7 @@ class ParquetConverter:
 
         df = pd.concat(frames, ignore_index=True)
         out = self.cfg.parquet_dir / "edgar_filings.parquet"
-        pq.write_table(pa.Table.from_pandas(df), out, compression="snappy")
+        pq.write_table(pa.Table.from_pandas(_sanitize_for_arrow(df)), out, compression="snappy")
         log.info("wrote %s  (%d rows from %d files)", out.name, len(df), len(csvs))
         return out
 

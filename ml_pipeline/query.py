@@ -31,18 +31,23 @@ class QueryEngine:
         self.con.execute(f"SET memory_limit = '{self.cfg.duckdb_memory_limit}'")
         self.con.execute(f"SET threads = {self.cfg.duckdb_threads}")
 
-        # Cloud filesystem extensions
-        self.con.execute("INSTALL httpfs; LOAD httpfs;")
+        # Cloud filesystem extensions (optional — local-only still works)
+        try:
+            self.con.execute("INSTALL httpfs; LOAD httpfs;")
+            self._httpfs = True
 
-        if self.cfg.storage_backend == "s3":
-            if self.cfg.aws_access_key_id:
-                self.con.execute(
-                    f"SET s3_access_key_id = '{self.cfg.aws_access_key_id}'"
-                )
-                self.con.execute(
-                    f"SET s3_secret_access_key = '{self.cfg.aws_secret_access_key}'"
-                )
-            self.con.execute(f"SET s3_region = '{self.cfg.aws_region}'")
+            if self.cfg.storage_backend == "s3":
+                if self.cfg.aws_access_key_id:
+                    self.con.execute(
+                        f"SET s3_access_key_id = '{self.cfg.aws_access_key_id}'"
+                    )
+                    self.con.execute(
+                        f"SET s3_secret_access_key = '{self.cfg.aws_secret_access_key}'"
+                    )
+                self.con.execute(f"SET s3_region = '{self.cfg.aws_region}'")
+        except Exception as e:
+            self._httpfs = False
+            log.warning("httpfs extension unavailable — cloud queries disabled: %s", e)
 
     # ── core query ─────────────────────────────────────────────────────
 
