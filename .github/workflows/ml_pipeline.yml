@@ -4,8 +4,8 @@ on:
   schedule:
     # Daily at 10:00 AM UTC — after all scrapers (4 AM, 5 AM, 9 AM) finish
     - cron: '0 10 * * *'
-    # Monday at 2:00 PM UTC — after ATS/FINRA scraper (1 PM Mon) finishes
-    - cron: '0 14 * * 1'
+    # Monday at 7:00 PM UTC (11 AM PST) — after ATS/FINRA scraper (10 AM PST) finishes
+    - cron: '0 19 * * 1'
   workflow_dispatch:  # manual trigger from GitHub UI
 
 jobs:
