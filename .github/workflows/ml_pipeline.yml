@@ -1,0 +1,34 @@
+name: ML Data Pipeline
+
+on:
+  schedule:
+    # Daily at 10:00 AM UTC — after all scrapers (4 AM, 5 AM, 9 AM) finish
+    - cron: '0 10 * * *'
+    # Monday at 2:00 PM UTC — after ATS/FINRA scraper (1 PM Mon) finishes
+    - cron: '0 14 * * 1'
+  workflow_dispatch:  # manual trigger from GitHub UI
+
+jobs:
+  convert-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ML pipeline (convert → upload → track)
+        env:
+          STORAGE_BACKEND: ${{ secrets.STORAGE_BACKEND }}
+          GCS_BUCKET: ${{ secrets.GCS_BUCKET }}
+          GCS_CREDENTIALS_JSON: ${{ secrets.GCS_CREDENTIALS_JSON }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: python -m ml_pipeline run
+
+      - name: Print pipeline status
+        run: python -m ml_pipeline status
