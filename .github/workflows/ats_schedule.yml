@@ -2,7 +2,7 @@ name: Run FINRA OTC Scraper
 
 on:
   schedule:
-    - cron: '*/5 13 * * 1'  # Runs every 5 minutes from 8 AM to 9 AM EST (1 PM to 2 PM UTC) on Mondays
+    - cron: '0 18 * * 1'  # Runs at 10 AM PST (6 PM UTC) every Monday
   workflow_dispatch:
 
 jobs:
