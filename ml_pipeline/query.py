@@ -37,17 +37,18 @@ class QueryEngine:
             self._httpfs = True
 
             if self.cfg.storage_backend == "gcs" and self.cfg.gcs_credentials_json:
-                import json, tempfile, os
+                import json
+                from google.oauth2 import service_account
+                from google.auth.transport.requests import Request
 
-                creds = json.loads(self.cfg.gcs_credentials_json)
-                tmp = tempfile.NamedTemporaryFile(
-                    suffix=".json", delete=False, mode="w"
+                creds_dict = json.loads(self.cfg.gcs_credentials_json)
+                credentials = service_account.Credentials.from_service_account_info(
+                    creds_dict,
+                    scopes=["https://www.googleapis.com/auth/devstorage.read_only"],
                 )
-                json.dump(creds, tmp)
-                tmp.close()
-                os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = tmp.name
+                credentials.refresh(Request())
                 self.con.execute(
-                    f"CREATE SECRET gcs_secret (TYPE GCS, KEY_FILE '{tmp.name}')"
+                    f"CREATE SECRET gcs_secret (TYPE GCS, PROVIDER CONFIG, TOKEN '{credentials.token}')"
                 )
 
             elif self.cfg.storage_backend == "s3":
