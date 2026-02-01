@@ -36,7 +36,21 @@ class QueryEngine:
             self.con.execute("INSTALL httpfs; LOAD httpfs;")
             self._httpfs = True
 
-            if self.cfg.storage_backend == "s3":
+            if self.cfg.storage_backend == "gcs" and self.cfg.gcs_credentials_json:
+                import json, tempfile, os
+
+                creds = json.loads(self.cfg.gcs_credentials_json)
+                tmp = tempfile.NamedTemporaryFile(
+                    suffix=".json", delete=False, mode="w"
+                )
+                json.dump(creds, tmp)
+                tmp.close()
+                os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = tmp.name
+                self.con.execute(
+                    f"CREATE SECRET gcs_secret (TYPE GCS, KEY_FILE '{tmp.name}')"
+                )
+
+            elif self.cfg.storage_backend == "s3":
                 if self.cfg.aws_access_key_id:
                     self.con.execute(
                         f"SET s3_access_key_id = '{self.cfg.aws_access_key_id}'"
