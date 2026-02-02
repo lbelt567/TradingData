@@ -38,18 +38,18 @@ class QueryEngine:
 
             if self.cfg.storage_backend == "gcs" and self.cfg.gcs_credentials_json:
                 import json
-                import os
-                import tempfile
+                from google.oauth2 import service_account
+                from google.auth.transport.requests import Request
 
                 creds_dict = json.loads(self.cfg.gcs_credentials_json)
-                tmp = tempfile.NamedTemporaryFile(
-                    suffix=".json", delete=False, mode="w"
+                credentials = service_account.Credentials.from_service_account_info(
+                    creds_dict,
+                    scopes=["https://www.googleapis.com/auth/devstorage.read_only"],
                 )
-                json.dump(creds_dict, tmp)
-                tmp.close()
-                os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = tmp.name
+                credentials.refresh(Request())
+                token = credentials.token.replace("'", "''")
                 self.con.execute(
-                    "CREATE SECRET gcs_secret (TYPE GCS, PROVIDER CREDENTIAL_CHAIN)"
+                    f"CREATE SECRET gcs_secret (TYPE GCS, BEARER_TOKEN '{token}')"
                 )
 
             elif self.cfg.storage_backend == "s3":
@@ -63,7 +63,7 @@ class QueryEngine:
                 self.con.execute(f"SET s3_region = '{self.cfg.aws_region}'")
         except Exception as e:
             self._httpfs = False
-            log.warning("httpfs extension unavailable — cloud queries disabled: %s", e)
+            log.warning("httpfs extension unavailable — cloud queries disabled: %s: %s", type(e).__name__, e)
 
     # ── core query ─────────────────────────────────────────────────────
 
