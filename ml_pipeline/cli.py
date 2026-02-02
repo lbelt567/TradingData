@@ -40,10 +40,7 @@ def cmd_run(args):
     pipe = MLPipeline()
     sources = args.sources.split(",") if args.sources else None
     result = pipe.run(sources=sources, upload=not args.no_upload, track=not args.no_track)
-    print(json.dumps(
-        {k: str(v) if not isinstance(v, (dict, str)) else v for k, v in result.items()},
-        indent=2,
-    ))
+    print(json.dumps(result, indent=2, default=str))
 
 
 def cmd_query(args):
