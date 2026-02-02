@@ -44,10 +44,14 @@ class MLPipeline:
         """
         run_id = ""
         if track:
-            run_id = self.metadata.start_run(
-                source="all" if sources is None else ",".join(sources),
-                action="convert_upload",
-            )
+            try:
+                run_id = self.metadata.start_run(
+                    source="all" if sources is None else ",".join(sources),
+                    action="convert_upload",
+                )
+            except Exception as e:
+                log.warning("metadata start_run failed, continuing without tracking: %s", e)
+                track = False
 
         # ── convert ────────────────────────────────────────────────────
         all_results = self.converter.convert_all()
@@ -102,12 +106,15 @@ class MLPipeline:
 
         # ── finish ─────────────────────────────────────────────────────
         if track:
-            self.metadata.finish_run(
-                run_id,
-                status="success",
-                rows_processed=total_rows,
-                files_uploaded=len(uploaded),
-            )
+            try:
+                self.metadata.finish_run(
+                    run_id,
+                    status="success",
+                    rows_processed=total_rows,
+                    files_uploaded=len(uploaded),
+                )
+            except Exception as e:
+                log.warning("metadata finish_run failed: %s", e)
 
         return {
             "run_id": run_id,
