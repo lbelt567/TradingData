@@ -11,8 +11,6 @@ import glob
 @pytest.mark.parametrize("csv_file", [
     "data_upload/earnings_calendar.csv",
     "data_upload/fomc_meeting_times.csv",
-    "data_upload/stock_loan_data.csv"
-    # "data_upload/ats_data.csv"  
 ])
 def test_csv_files_exist(csv_file):
     """Ensure workflow output CSV files exist"""

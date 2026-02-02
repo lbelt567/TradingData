@@ -2,9 +2,14 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 import os
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-import configuration
+
+DATA_FOLDER = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data_upload'))
+
+FOMC_URL = os.getenv(
+    'FOMC_URL',
+    'https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm',
+)
+FOMC_FILENAME = os.getenv('FOMC_FILENAME', 'fomc_meeting_times.csv')
 
 def fetch_html(url):
     """
@@ -108,11 +113,10 @@ def save_to_csv(meetings, output_filename):
     """
     Save fomccalender to a dataframe and create csv
     """
-    if not os.path.exists(configuration.DATA_FOLDER):
-        os.makedirs(configuration.DATA_FOLDER)
+    os.makedirs(DATA_FOLDER, exist_ok=True)
 
     # Define full output file path using the corrected absolute path
-    output_filepath = os.path.join(configuration.DATA_FOLDER, output_filename)
+    output_filepath = os.path.join(DATA_FOLDER, output_filename)
 
     # Save the CSV
     df = pd.DataFrame(meetings)
@@ -131,6 +135,4 @@ def main(url, output_filename):
         print("No meeting data found")
 
 if __name__ == "__main__":
-    url = configuration.FOMC_URL
-    output_filename = configuration.FOMC_FILENAME
-    main(url, output_filename)
+    main(FOMC_URL, FOMC_FILENAME)
